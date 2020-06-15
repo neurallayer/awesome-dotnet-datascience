@@ -1,5 +1,6 @@
 # Awesome .NET Datascience
-A curated list of awesome .Net packages, frameworks and resources for datascience.
+A curated list of awesome .Net packages, frameworks and resources for datascience. It is inspired by more the general awesome pages for machine learning and .NET.
+
 
 
 ## Interactive Development
