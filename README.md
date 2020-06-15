@@ -25,6 +25,8 @@ Since almost daily new datascience packages for .Net are released or updated, th
 * [HDF.PInvoke](https://github.com/HDFGroup/HDF.PInvoke) - HDF.PInvoke is a collection of PInvoke signatures for the HDF5 C-API. It is not a high-level .NET interface for HDF5.
 * [HDF5-CSharp](https://github.com/LiorBanai/HDF5-CSharp) - Set of tools that help in reading and writing hdf5 files for .net environments.
 * [parquet-dotnet](https://github.com/aloneguid/parquet-dotnet) - Fully managed .NET library to read and write Apache Parquet files.
+* [Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET) - .NET library for LMDB key-value store. LMDB is a Btree-based database management library. The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory. As such, the library is extremely high performance and memory-efficient. So ideal for processing large amount of data during machine learning.
+
 
 
 ## Language bindings
