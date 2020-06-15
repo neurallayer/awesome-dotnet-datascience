@@ -84,4 +84,4 @@ Since almost daily new datascience related software for .Net is released or upda
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/neurallayer/awesome-dotnet-datascience/blob/master/CONTRIBUTING.md) first.
 
-I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/neurallayer/wesome-dotnet-datascience/pulls) by adding :+1: to them. 
+I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/neurallayer/awesome-dotnet-datascience/pulls) by adding :+1: to them. 
