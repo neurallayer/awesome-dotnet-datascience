@@ -48,10 +48,10 @@ Since almost daily new datascience related software for .Net is released or upda
 
 
 ## Machine Learning and Differential Programming
+* [ML.NET](https://github.com/dotnet/machinelearning) - Cross-platform open-source machine learning framework which makes machine learning accessible to .NET developers. This framework wraps several other libraries and is actively being developed. So a great place to start.
 * [Infer.NET](https://dotnet.github.io/infer/) - A framework for running Bayesian inference in graphical models. It can also be used for probabilistic programming.
 * [numl](http://numl.net/index.html) - This library is designed to assist in the use of common Machine Learning Algorithms in conjunction with the .NET platform. It is designed to include the most popular supervised and unsupervised learning algorithms while minimizing the friction involved with creating the predictive models.
 * [FsLab](https://fslab.org/) - A collection of data science and machine learning libraries for F# and .NET
-* [ML.NET](https://github.com/dotnet/machinelearning) - Cross-platform open-source machine learning framework which makes machine learning accessible to .NET developers.
 * [Spreads](https://github.com/Spreads/Spreads/) - Series and Panels for Real-time and Exploratory Analysis of Data Streams. Spreads library is optimized for performance and memory usage. It is several times faster than other open source projects.
 * [SciSharp STACK](https://scisharp.github.io/SciSharp/) - A rich machine learning ecosystem for .NET created by porting the most popular Python libraries to C#. 
 * [Synapses](https://github.com/mrdimosthenis/Synapses) - An in-memory neural network library written in F#. 
@@ -61,13 +61,20 @@ Since almost daily new datascience related software for .Net is released or upda
 * [onxxruntime](https://microsoft.github.io/onnxruntime/) - ONNX Runtime is an open source project that is designed to accelerate machine learning across a wide range of frameworks, operating systems, and hardware platforms. It enables acceleration of machine learning inferencing across all of your deployment targets using a single set of API. Standard binding for C#.
 * [Tensorflow.Net](https://github.com/SciSharp/TensorFlow.NET) - .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C#. 
 * [Microsoft Cognitive Toolkit (CNTK)](https://docs.microsoft.com/en-us/cognitive-toolkit/) - The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). 
+* [XGBoost.Net](https://github.com/PicNet/XGBoost.Net) - .Net wrappers for the awesome XGBoost library
+* [DiffSharp](https://diffsharp.github.io/DiffSharp/) - DiffSharp allows for exact and efficient calculation of derivatives, by systematically invoking the chain rule of calculus at the elementary operator level during program execution.
+* [autodiff](https://github.com/alexshtf/autodiff) - A .NET library that provides fast, accurate and automatic differentiation (computes derivative / gradient) of mathematical functions.
 
 ## Reinforcement Learning
+* [Gym.NET](https://github.com/SciSharp/Gym.NET) - A complete port of OpenAI Gym to C#. OpenAI Gym is a toolkit for developing and comparing reinforcement learning algorithms. This is the gym open-source library, which gives you access to a standardized set of environments. Work in progress.
+* [Deep QLearning demo](https://github.com/dubezOniner/Deep-QLearning-Demo-csharp) - This demo is a C# port of [ConvNetJS RLDemo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html) by Andrej Karpathy.
 
 ## Genetic Programming
 * [GeneticSharp](https://github.com/giacomelli/GeneticSharp) - Multi-platform genetic algorithm library for .NET Core and .NET Framework. The library has several implementations of GA operators, like: selection, crossover, mutation, reinsertion and termination.
+* [SharpNEAT](https://github.com/colgreen/sharpneat) - SharpNEAT provides an implementation of an Evolutionary Algorithm (EA) with the specific goal of evolving neural networks. The EA uses the evolutionary mechanisms of mutation, recombination and selection to search for neural networks with behaviour that satisfies some formally defined problem.
 
 ## Serving
 
 ## Domain specific
 * [Lean](https://github.com/QuantConnect/Lean/) - Lean Engine is an open-source algorithmic trading engine built for easy strategy research, backtesting and live trading.
+* [QuantAD](https://www.xcelerit.com/products/quantad/) - Automatic Differentiation tool targeted at Quantitative Finance
