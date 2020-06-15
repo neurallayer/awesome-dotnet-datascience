@@ -25,7 +25,7 @@ Since almost daily new datascience related software for .Net is released or upda
 * [F# Data](https://fsharp.github.io/FSharp.Data/) - F# type providers for accessing XML, JSON, CSV and HTML files (based on sample documents) and for accessing WorldBank data.
 
 
-## Language Connectivity
+## Language bindings
 * [R Provider](https://bluemountaincapital.github.io/FSharpRProvider/) - Type provider that exposes R packages and functions in a type-safe way to F# callers
 * [Python.NET](https://pythonnet.github.io/) - Python.NET is a package that gives Python programmers integration with the .NET 4.0+ Common Language Runtime (CLR). Python.NET provides a powerful application scripting tool for .NET developers. Using this package you can script .NET applications or build entire applications in Python, using .NET services and components written in any language that targets the CLR (C#, VB.NET, F#, C++/CLI).
 
@@ -78,3 +78,10 @@ Since almost daily new datascience related software for .Net is released or upda
 ## Domain specific
 * [Lean](https://github.com/QuantConnect/Lean/) - Lean Engine is an open-source algorithmic trading engine built for easy strategy research, backtesting and live trading.
 * [QuantAD](https://www.xcelerit.com/products/quantad/) - Automatic Differentiation tool targeted at Quantitative Finance
+
+
+# Contributing
+
+Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/neurallayer/awesome-dotnet-datascience/blob/master/CONTRIBUTING.md) first.
+
+I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/neurallayer/wesome-dotnet-datascience/pulls) by adding :+1: to them. 
