@@ -22,14 +22,16 @@ Since almost daily new datascience packages for .Net are released or updated, th
 
 ## Big Data
 * [.NET for Apache Spark](https://dotnet.microsoft.com/apps/data/spark) - The .NET bindings for Spark are written on the Spark interop layer, designed to provide high performance bindings to multiple languages. .NET for Apache Spark is compliant with .NET Standard—a formal specification of .NET APIs that are common across .NET implementations. This means you can use .NET for Apache Spark anywhere you write .NET code. 
+* [Cinchoo ETL](https://github.com/Cinchoo/ChoETL) - Cinchoo ETL is a code-based ETL framework for extracting data from multiple sources, transforming, and loading into your very own data warehouse in .NET environment. 
+*[ETLBox](https://etlbox.net/) - Read and write data from flatfiles, databases (e.g. Sql Server, SQLite, MySql or Postgres) or webservices. Harmonize, filter, aggregate, validate and clean the data in-memory with highly customizable transformations and write them into any destination.
+*[FsShelter](https://github.com/Prolucid/FsShelter) - FsShelter is a library for defining and running Apache Storm topologies in F# using statically typed streams.
 
-## Data Connectivity
+## Data loading
 * [F# Data](https://fsharp.github.io/FSharp.Data/) - F# type providers for accessing XML, JSON, CSV and HTML files (based on sample documents) and for accessing WorldBank data.
 * [HDF.PInvoke](https://github.com/HDFGroup/HDF.PInvoke) - HDF.PInvoke is a collection of PInvoke signatures for the HDF5 C-API. It is not a high-level .NET interface for HDF5.
 * [HDF5-CSharp](https://github.com/LiorBanai/HDF5-CSharp) - Set of tools that help in reading and writing hdf5 files for .net environments.
 * [parquet-dotnet](https://github.com/aloneguid/parquet-dotnet) - Fully managed .NET library to read and write Apache Parquet files.
 * [Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET) - .NET library for LMDB key-value store. LMDB is a Btree-based database management library. The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory. As such, the library is extremely high performance and memory-efficient. So ideal for storing large amount of data during machine learning.
-
 
 
 ## Language bindings
@@ -44,6 +46,7 @@ Since almost daily new datascience packages for .Net are released or updated, th
 * [Math.NET Spatial](https://spatial.mathdotnet.com/) - Math.NET Spatial is aiming to become a geometry library for .Net and Mono.
 * [NumSharp](https://github.com/SciSharp/NumSharp) - High Performance Computation for N-D Tensors in .NET, similar API to NumPy.
 * [ILNumerics](https://ilnumerics.net/index.html) - set of tools for engineers and scientists based on modern software frameworks that help to develop, deploy and maintain technical applications. Consist of development tooling (integrated in Visual Studio), visualization engine and a compute engine.
+* [ALGLIB](https://www.alglib.net/) - ALGLIB is a cross-platform numerical analysis and data processing library.  It supports several programming languages (C++, C#, Delphi) and several operating systems (Windows and POSIX, including Linux).
 
 
 ## Computer Vision
@@ -85,7 +88,6 @@ Since almost daily new datascience packages for .Net are released or updated, th
 * [GeneticSharp](https://github.com/giacomelli/GeneticSharp) - Multi-platform genetic algorithm library for .NET Core and .NET Framework. The library has several implementations of GA operators, like: selection, crossover, mutation, reinsertion and termination.
 * [SharpNEAT](https://github.com/colgreen/sharpneat) - SharpNEAT provides an implementation of an Evolutionary Algorithm (EA) with the specific goal of evolving neural networks. The EA uses the evolutionary mechanisms of mutation, recombination and selection to search for neural networks with behaviour that satisfies some formally defined problem.
 
-## Serving
 
 ## Domain specific
 * [Lean](https://github.com/QuantConnect/Lean/) - Lean Engine is an open-source algorithmic trading engine built for easy strategy research, backtesting and live trading.
