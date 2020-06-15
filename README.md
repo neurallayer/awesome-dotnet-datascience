@@ -6,6 +6,9 @@ Since almost daily new datascience packages for .Net are released or updated, th
 
 ## Interactive Development
 * [.NET Interactive](https://github.com/dotnet/interactive) - .NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn't before. Right now there is support for Jupyter, nteract, and Visual Studio Code.
+* [Azure Jupyter Notebooks](https://notebooks.azure.com/) - Jupyter notebooks on Azure have builtin supper for F#.
+* [Binder](https://mybinder.org/) - Binder is an online application that allows you to point it to a github repo and start a Jupyter notebook that is in there. Binder supports C#, F# and even Powershell notebooks.
+* [IfSharp](https://github.com/fsprojects/IfSharp) - F# for Jupyter Notebooks with intellisense and integrated NuGet support.
 
 ## Dataframes
 * [Microsoft.Data.Analysis](Microsoft.Data.Analysis) - Robust and extensible types and algorithms for manipulating structured data that supports aggregations, statistical funtions, sorting, grouping, joins, merges, handling missing values and more. Currently in preview mode.
@@ -25,7 +28,7 @@ Since almost daily new datascience packages for .Net are released or updated, th
 * [HDF.PInvoke](https://github.com/HDFGroup/HDF.PInvoke) - HDF.PInvoke is a collection of PInvoke signatures for the HDF5 C-API. It is not a high-level .NET interface for HDF5.
 * [HDF5-CSharp](https://github.com/LiorBanai/HDF5-CSharp) - Set of tools that help in reading and writing hdf5 files for .net environments.
 * [parquet-dotnet](https://github.com/aloneguid/parquet-dotnet) - Fully managed .NET library to read and write Apache Parquet files.
-* [Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET) - .NET library for LMDB key-value store. LMDB is a Btree-based database management library. The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory. As such, the library is extremely high performance and memory-efficient. So ideal for processing large amount of data during machine learning.
+* [Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET) - .NET library for LMDB key-value store. LMDB is a Btree-based database management library. The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory. As such, the library is extremely high performance and memory-efficient. So ideal for storing large amount of data during machine learning.
 
 
 
