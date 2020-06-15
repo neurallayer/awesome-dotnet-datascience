@@ -1,8 +1,7 @@
 # Awesome .NET Datascience [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 A curated list of awesome .Net packages, frameworks and resources for datascience. It is inspired by many of the other awesome pages like awesome-php.
 
-Since almost daily new datascience related software for .Net is released or updated, this is a great place to stay up to date. 
-
+Since almost daily new datascience packages for .Net are released or updated, this is a great place to stay up to date. 
 
 
 ## Interactive Development
@@ -23,15 +22,23 @@ Since almost daily new datascience related software for .Net is released or upda
 
 ## Data Connectivity
 * [F# Data](https://fsharp.github.io/FSharp.Data/) - F# type providers for accessing XML, JSON, CSV and HTML files (based on sample documents) and for accessing WorldBank data.
+* [HDF.PInvoke](https://github.com/HDFGroup/HDF.PInvoke) - HDF.PInvoke is a collection of PInvoke signatures for the HDF5 C-API. It is not a high-level .NET interface for HDF5.
+* [HDF5-CSharp](https://github.com/LiorBanai/HDF5-CSharp) - Set of tools that help in reading and writing hdf5 files for .net environments.
+* [parquet-dotnet](https://github.com/aloneguid/parquet-dotnet) - Fully managed .NET library to read and write Apache Parquet files.
 
 
 ## Language bindings
 * [R Provider](https://bluemountaincapital.github.io/FSharpRProvider/) - Type provider that exposes R packages and functions in a type-safe way to F# callers
 * [Python.NET](https://pythonnet.github.io/) - Python.NET is a package that gives Python programmers integration with the .NET 4.0+ Common Language Runtime (CLR). Python.NET provides a powerful application scripting tool for .NET developers. Using this package you can script .NET applications or build entire applications in Python, using .NET services and components written in any language that targets the CLR (C#, VB.NET, F#, C++/CLI).
+* [IronPython](https://ironpython.net/) - IronPython is an open-source implementation of the Python programming language which is tightly integrated with the .NET Framework. IronPython can use the .NET Framework and Python libraries, and other .NET languages can use Python code just as easily. 
 
 ## Math and Statistics
-* [Math.NET](https://numerics.mathdotnet.com/) - Math.NET Numerics aims to provide methods and algorithms for numerical computations in science, engineering and every day use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integration, regression, optimization problems and more.
+* [Math.NET Numerics](https://numerics.mathdotnet.com/) - Math.NET Numerics aims to provide methods and algorithms for numerical computations in science, engineering and every day use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integration, regression, optimization problems and more.
+* [Math.NET Symbolics](https://symbolics.mathdotnet.com/) - Math.NET Symbolics is a basic open source computer algebra library for .Net and Mono written in F#.
+* [Math.NET Filtering](https://filtering.mathdotnet.com/) - Filtering aims to provide a toolkit for digital signal processing, offering an infrastructure for digital filter design, applying those filters to data streams using data converters, as well as digital signal generators.
+* [Math.NET Spatial](https://spatial.mathdotnet.com/) - Math.NET Spatial is aiming to become a geometry library for .Net and Mono.
 * [NumSharp](https://github.com/SciSharp/NumSharp) - High Performance Computation for N-D Tensors in .NET, similar API to NumPy.
+* [ILNumerics](https://ilnumerics.net/index.html) - set of tools for engineers and scientists based on modern software frameworks that help to develop, deploy and maintain technical applications. Consist of development tooling (integrated in Visual Studio), visualization engine and a compute engine.
 
 
 ## Computer Vision
@@ -81,7 +88,6 @@ Since almost daily new datascience related software for .Net is released or upda
 
 
 # Contributing
-
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/neurallayer/awesome-dotnet-datascience/blob/master/CONTRIBUTING.md) first.
 
 I will keep some pull requests open if I'm not sure whether those libraries are awesome, you could [vote for them](https://github.com/neurallayer/awesome-dotnet-datascience/pulls) by adding :+1: to them. 
