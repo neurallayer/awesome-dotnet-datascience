@@ -53,8 +53,6 @@ Since almost daily new datascience packages for .Net are released or updated, th
 * [SharpCV](https://github.com/SciSharp/SharpCV) - A Computer Vision library that combines OpenCV and NDArray together in .NET Standard. Great for processing images and video before feeding into a machine learning model. 
 * [OpenCVDotNet](https://code.google.com/archive/p/opencvdotnet) - A wrapper for the OpenCV project to be used with .NET applications.
 * [Emgu CV](http://www.emgu.com/wiki/index.php/Main_Page) - Cross platform wrapper of OpenCV which can be compiled in Mono to be run on Windows, Linus, Mac OS X, iOS, and Android.
-* [AForge.NET](http://www.aforgenet.com/framework/) - Framework for developers and researchers in the fields of Computer Vision and Artificial Intelligence (image processing, neural networks, genetic algorithms, machine learning, robotics).
-* [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics).
 * [Accord.NET Extensions](https://github.com/dajuric/accord-net-extensions) - Advanced image processing and computer vision algorithms made as fluent extensions.
 
 ## Natural Language Processing
@@ -65,6 +63,7 @@ Since almost daily new datascience packages for .Net are released or updated, th
 ## Machine Learning and Differential Programming
 * [ML.NET](https://github.com/dotnet/machinelearning) - Cross-platform open-source machine learning framework which makes machine learning accessible to .NET developers. This framework wraps several other libraries and is actively being developed. So a great place to start.
 * [Infer.NET](https://dotnet.github.io/infer/) - A framework for running Bayesian inference in graphical models. It can also be used for probabilistic programming.
+* [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics). Merged with [AForge.NET](http://www.aforgenet.com/framework/)
 * [numl](http://numl.net/index.html) - This library is designed to assist in the use of common Machine Learning Algorithms in conjunction with the .NET platform. It is designed to include the most popular supervised and unsupervised learning algorithms while minimizing the friction involved with creating the predictive models.
 * [FsLab](https://fslab.org/) - A collection of data science and machine learning libraries for F# and .NET
 * [Spreads](https://github.com/Spreads/Spreads/) - Series and Panels for Real-time and Exploratory Analysis of Data Streams. Spreads library is optimized for performance and memory usage. It is several times faster than other open source projects.
