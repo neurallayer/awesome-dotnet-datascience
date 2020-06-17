@@ -1,7 +1,8 @@
-# Awesome .NET Datascience [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-A curated list of awesome .Net packages, frameworks and resources for datascience. It is inspired by many of the other awesome pages like awesome-php.
+# Awesome .NET for Data Science, Machine Learning and AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+A curated list of awesome .Net packages, frameworks and resources for data science, machine learning and AI. 
+It is inspired by many of the other awesome pages like awesome-php.
 
-Since almost daily new datascience packages for .Net are released or updated, this is a great place to stay up to date. 
+Since almost daily new datascience packages for .Net are released and updated, this is a great place to stay up to date. 
 
 
 ## Interactive Development
@@ -44,7 +45,8 @@ Since almost daily new datascience packages for .Net are released or updated, th
 * [Math.NET Symbolics](https://symbolics.mathdotnet.com/) - Math.NET Symbolics is a basic open source computer algebra library for .Net and Mono written in F#.
 * [Math.NET Filtering](https://filtering.mathdotnet.com/) - Filtering aims to provide a toolkit for digital signal processing, offering an infrastructure for digital filter design, applying those filters to data streams using data converters, as well as digital signal generators.
 * [Math.NET Spatial](https://spatial.mathdotnet.com/) - Math.NET Spatial is aiming to become a geometry library for .Net and Mono.
-* [NumSharp](https://github.com/SciSharp/NumSharp) - High Performance Computation for N-D Tensors in .NET, similar API to NumPy.
+* [NumSharp](https://github.com/SciSharp/NumSharp) - High Performance Computation for N-D Tensors in .NET, similar API to NumPy wrtitten in pure C#.
+* [Numpy.NET](https://github.com/SciSharp/Numpy.NET) - Numpy.NET is an almost complete .NET binding for NumPy.
 * [ILNumerics](https://ilnumerics.net/index.html) - set of tools for engineers and scientists based on modern software frameworks that help to develop, deploy and maintain technical applications. Consist of development tooling (integrated in Visual Studio), visualization engine and a compute engine.
 * [ALGLIB](https://www.alglib.net/) - ALGLIB is a cross-platform numerical analysis and data processing library.  It supports several programming languages (C++, C#, Delphi) and several operating systems (Windows and POSIX, including Linux).
 
@@ -57,23 +59,25 @@ Since almost daily new datascience packages for .Net are released or updated, th
 
 ## Natural Language Processing
 * [Stanford.NLP for .NET](https://github.com/sergey-tihon/Stanford.NLP.NET/) - A full port of Stanford NLP packages to .NET and also available precompiled as a NuGet package.
-* [Catalyst](https://github.com/curiosity-ai/catalyst) Cross-platform Natural Language Processing (NLP) library inspired by spaCy, with pre-trained models, out-of-the box support for training word and document embeddings, and flexible entity recognition models.
+* [Catalyst](https://github.com/curiosity-ai/catalyst) Catalyst is a C# Natural Language Processing library built for speed. Inspired by spaCy's design, it brings pre-trained models, out-of-the box support for training word and document embeddings, and flexible entity recognition models.
 
 
 ## Machine Learning and Differential Programming
 * [ML.NET](https://github.com/dotnet/machinelearning) - Cross-platform open-source machine learning framework which makes machine learning accessible to .NET developers. This framework wraps several other libraries and is actively being developed. So a great place to start.
+* [SciSharp STACK](https://scisharp.github.io/SciSharp/) - A rich machine learning ecosystem for .NET created by porting the most popular libraries to C#. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort. Severel of their packages are listed separately on this page.
 * [Infer.NET](https://dotnet.github.io/infer/) - A framework for running Bayesian inference in graphical models. It can also be used for probabilistic programming.
 * [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics). Merged with [AForge.NET](http://www.aforgenet.com/framework/)
 * [numl](http://numl.net/index.html) - This library is designed to assist in the use of common Machine Learning Algorithms in conjunction with the .NET platform. It is designed to include the most popular supervised and unsupervised learning algorithms while minimizing the friction involved with creating the predictive models.
-* [FsLab](https://fslab.org/) - A collection of data science and machine learning libraries for F# and .NET
+* [FsLab](https://fslab.org/) - FsLab is a curated collection of open source F# packages for data-science. Together with your editor or Jupyter notebook these packages allow you to rapidly develop scalable, high-performance analytics and visualizations using succinct, type-safe, production-ready code.
 * [Spreads](https://github.com/Spreads/Spreads/) - Series and Panels for Real-time and Exploratory Analysis of Data Streams. Spreads library is optimized for performance and memory usage. It is several times faster than other open source projects.
-* [SciSharp STACK](https://scisharp.github.io/SciSharp/) - A rich machine learning ecosystem for .NET created by porting the most popular Python libraries to C#. 
 * [Synapses](https://github.com/mrdimosthenis/Synapses) - An in-memory neural network library written in F#. 
 * [Torch.NET](https://github.com/SciSharp/Torch.NET) - .NET bindings for PyTorch. Machine Learning with C# / F# with Multi-GPU/CPU support 
 * [TorchSharp](https://github.com/xamarin/TorchSharp) - TorchSharp is a .NET library that provides access to the library that powers PyTorch. It is a work in progress, but already provides a .NET API that can be used to perform (1) various operations on ATen Tensors; (2) scoring of TorchScript models; (3) Training of simple neural networks. Current focus is to bind the entire API surfaced by libtorch.
 * [MxNet.Sharp](https://mxnet.tech-quantum.com/) - MxNet.Sharp is a CSharp binding coving all the Imperative, Symbolic and Gluon API’s with an easy to use interface. The Gluon library in Apache MXNet provides a clear, concise, and simple API for deep learning. It makes it easy to prototype, build, and train deep learning models without sacrificing training speed.
 * [onxxruntime](https://microsoft.github.io/onnxruntime/) - ONNX Runtime is an open source project that is designed to accelerate machine learning across a wide range of frameworks, operating systems, and hardware platforms. It enables acceleration of machine learning inferencing across all of your deployment targets using a single set of API. Standard binding for C#.
 * [Tensorflow.Net](https://github.com/SciSharp/TensorFlow.NET) - .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C#. 
+* [Keras.NET](https://github.com/SciSharp/Keras.NET) - Keras.NET is a high-level neural networks API, written in C# with Python Binding and capable of running on top of TensorFlow, CNTK, or Theano.
+* [NeuralNetwork.NET](https://github.com/Sergio0694/NeuralNetwork.NET) - A TensorFlow-inspired neural network library built from scratch in C# 7.3 for .NET Standard 2.0, with GPU support through cuDNN.
 * [Microsoft Cognitive Toolkit (CNTK)](https://docs.microsoft.com/en-us/cognitive-toolkit/) - The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). 
 * [XGBoost.Net](https://github.com/PicNet/XGBoost.Net) - .Net wrappers for the awesome XGBoost library
 * [DiffSharp](https://diffsharp.github.io/DiffSharp/) - DiffSharp allows for exact and efficient calculation of derivatives, by systematically invoking the chain rule of calculus at the elementary operator level during program execution.
@@ -86,6 +90,10 @@ Since almost daily new datascience packages for .Net are released or updated, th
 ## Genetic Programming
 * [GeneticSharp](https://github.com/giacomelli/GeneticSharp) - Multi-platform genetic algorithm library for .NET Core and .NET Framework. The library has several implementations of GA operators, like: selection, crossover, mutation, reinsertion and termination.
 * [SharpNEAT](https://github.com/colgreen/sharpneat) - SharpNEAT provides an implementation of an Evolutionary Algorithm (EA) with the specific goal of evolving neural networks. The EA uses the evolutionary mechanisms of mutation, recombination and selection to search for neural networks with behaviour that satisfies some formally defined problem.
+
+
+## Serving
+* [SciSharp Cube](https://github.com/SciSharp/SciSharpCube) - Quickly experience all the latest features of SciSharp Machine Learning tools in docker container.
 
 
 ## Domain specific
