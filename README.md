@@ -1,20 +1,21 @@
 # Awesome .NET for Data Science, Machine Learning and AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 A curated list of awesome .Net packages, frameworks and resources for data science, machine learning and AI. 
-It is inspired by many of the other awesome pages like awesome-php.
+It is inspired by many of the other awesome pages like awesome-python, awesome-php, awesome-ruby and awesome-dotnet.
 
-Since almost daily new datascience packages for .Net are released and updated, this is a great place to stay up to date. 
+Since almost daily new datascience packages for .Net are being released or updated, this is a great place to stay up to date. 
 
 
 ## Interactive Development
 * [.NET Interactive](https://github.com/dotnet/interactive) - .NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn't before. Right now there is support for Jupyter, nteract, and Visual Studio Code.
 * [Azure Jupyter Notebooks](https://notebooks.azure.com/) - Jupyter notebooks on Azure have builtin supper for F#.
-* [Binder](https://mybinder.org/) - Binder is an online application that allows you to point it to a github repo and start a Jupyter notebook that is in there. Binder supports C#, F# and even Powershell notebooks.
+* [Binder](https://mybinder.org/) - Binder is an online application that allows you to point it to a github repo and start a Jupyter notebook that is in there. Binder supports C#, F# and even Powershell notebooks. And if you just want to try some notebooks right now, click [here](https://mybinder.org/v2/gh/dotnet/interactive/master?urlpath=lab).
 * [IfSharp](https://github.com/fsprojects/IfSharp) - F# for Jupyter Notebooks with intellisense and integrated NuGet support.
 
 ## Dataframes
 * [Microsoft.Data.Analysis](Microsoft.Data.Analysis) - Robust and extensible types and algorithms for manipulating structured data that supports aggregations, statistical funtions, sorting, grouping, joins, merges, handling missing values and more. Currently in preview mode.
 * [Deedle](https://bluemountaincapital.github.io/Deedle/) - Data frame and (time) series library for exploratory data manipulation with C# and F# support
 * [Pandas.NET](https://github.com/SciSharp/Pandas.NET) - Pandas ported to C#. It is a data analysis tool that can process multi-dimensional arrays using DataFrames.
+* [Spreads](https://github.com/Spreads/Spreads/) - Series and Panels for Real-time and Exploratory Analysis of Data Streams. Spreads library is optimized for performance and memory usage. It is several times faster than other open source projects.
 
 
 ## Visualization
@@ -33,7 +34,7 @@ Since almost daily new datascience packages for .Net are released and updated, t
 * [HDF5-CSharp](https://github.com/LiorBanai/HDF5-CSharp) - Set of tools that help in reading and writing hdf5 files for .net environments.
 * [parquet-dotnet](https://github.com/aloneguid/parquet-dotnet) - Fully managed .NET library to read and write Apache Parquet files.
 * [Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET) - .NET library for LMDB key-value store. LMDB is a Btree-based database management library. The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory. As such, the library is extremely high performance and memory-efficient. So ideal for storing large amount of data during machine learning.
-
+* [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) - Serialize and deserialize any .NET object with Json.NET's JSON serializer. 
 
 ## Language bindings
 * [R Provider](https://bluemountaincapital.github.io/FSharpRProvider/) - Type provider that exposes R packages and functions in a type-safe way to F# callers
@@ -65,11 +66,10 @@ Since almost daily new datascience packages for .Net are released and updated, t
 ## Machine Learning and Differential Programming
 * [ML.NET](https://github.com/dotnet/machinelearning) - Cross-platform open-source machine learning framework which makes machine learning accessible to .NET developers. This framework wraps several other libraries and is actively being developed. So a great place to start.
 * [SciSharp STACK](https://scisharp.github.io/SciSharp/) - A rich machine learning ecosystem for .NET created by porting the most popular libraries to C#. Since the APIs of the ported libraries are so similar to the originals you can easily re-use all existing resources, documentation and community solutions to common problems in C# or F# without much effort. Severel of their packages are listed separately on this page.
-* [Infer.NET](https://dotnet.github.io/infer/) - A framework for running Bayesian inference in graphical models. It can also be used for probabilistic programming.
-* [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics). Merged with [AForge.NET](http://www.aforgenet.com/framework/)
+* [Accord.NET](http://accord-framework.net/) - Machine learning framework combined with audio and image processing libraries (computer vision, computer audition, signal processing and statistics). Merged with [AForge.NET](http://www.aforgenet.com/framework/).
 * [numl](http://numl.net/index.html) - This library is designed to assist in the use of common Machine Learning Algorithms in conjunction with the .NET platform. It is designed to include the most popular supervised and unsupervised learning algorithms while minimizing the friction involved with creating the predictive models.
 * [FsLab](https://fslab.org/) - FsLab is a curated collection of open source F# packages for data-science. Together with your editor or Jupyter notebook these packages allow you to rapidly develop scalable, high-performance analytics and visualizations using succinct, type-safe, production-ready code.
-* [Spreads](https://github.com/Spreads/Spreads/) - Series and Panels for Real-time and Exploratory Analysis of Data Streams. Spreads library is optimized for performance and memory usage. It is several times faster than other open source projects.
+* [Infer.NET](https://dotnet.github.io/infer/) - A framework for running Bayesian inference in graphical models. It can also be used for probabilistic programming.
 * [Synapses](https://github.com/mrdimosthenis/Synapses) - An in-memory neural network library written in F#. 
 * [Torch.NET](https://github.com/SciSharp/Torch.NET) - .NET bindings for PyTorch. Machine Learning with C# / F# with Multi-GPU/CPU support 
 * [TorchSharp](https://github.com/xamarin/TorchSharp) - TorchSharp is a .NET library that provides access to the library that powers PyTorch. It is a work in progress, but already provides a .NET API that can be used to perform (1) various operations on ATen Tensors; (2) scoring of TorchScript models; (3) Training of simple neural networks. Current focus is to bind the entire API surfaced by libtorch.
@@ -93,12 +93,13 @@ Since almost daily new datascience packages for .Net are released and updated, t
 
 
 ## Serving
-* [SciSharp Cube](https://github.com/SciSharp/SciSharpCube) - Quickly experience all the latest features of SciSharp Machine Learning tools in docker container.
+* [SciSharp Cube](https://github.com/SciSharp/SciSharpCube) - Easy way to get all the latest features of SciSharp Machine Learning tools in docker container.
 
 
 ## Domain specific
 * [Lean](https://github.com/QuantConnect/Lean/) - Lean Engine is an open-source algorithmic trading engine built for easy strategy research, backtesting and live trading.
-* [QuantAD](https://www.xcelerit.com/products/quantad/) - Automatic Differentiation tool targeted at Quantitative Finance
+* [QuantAD](https://www.xcelerit.com/products/quantad/) - Automatic Differentiation tool targeted at Quantitative Finance.
+* [BotSharp](https://github.com/SciSharp/BotSharp) - BotSharp is an open source machine learning framework for AI Bot platform builder. This project involves natural language understanding, computer vision and audio processing technologies, and aims to promote the development and application of intelligent robot assistants in information systems.
 
 
 # Contributing
