@@ -82,6 +82,8 @@ Since almost daily new datascience packages for .Net are being released or updat
 * [XGBoost.Net](https://github.com/PicNet/XGBoost.Net) - .Net wrappers for the awesome XGBoost library
 * [DiffSharp](https://diffsharp.github.io/DiffSharp/) - DiffSharp allows for exact and efficient calculation of derivatives, by systematically invoking the chain rule of calculus at the elementary operator level during program execution.
 * [autodiff](https://github.com/alexshtf/autodiff) - A .NET library that provides fast, accurate and automatic differentiation (computes derivative / gradient) of mathematical functions.
+* [Fuuga](https://bitbucket.org/Thorium/fuuga/) - LLM model generator for .NET
+* [FSharp.Azure.Quantum](https://github.com/Thorium/fsharp.azure.quantum) - A quantum computing library for .NET
 
 ## Reinforcement Learning
 * [Gym.NET](https://github.com/SciSharp/Gym.NET) - A complete port of OpenAI Gym to C#. OpenAI Gym is a toolkit for developing and comparing reinforcement learning algorithms. This is the gym open-source library, which gives you access to a standardized set of environments. Work in progress.
