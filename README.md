@@ -42,6 +42,7 @@ Since almost daily new datascience packages for .Net are being released or updat
 * [IronPython](https://ironpython.net/) - IronPython is an open-source implementation of the Python programming language which is tightly integrated with the .NET Framework. IronPython can use the .NET Framework and Python libraries, and other .NET languages can use Python code just as easily. 
 
 ## Math and Statistics
+* [CardinalityEstimation](https://github.com/saguiitay/CardinalityEstimation) - C# library for approximate distinct counting using HyperLogLog.
 * [Math.NET Numerics](https://numerics.mathdotnet.com/) - Math.NET Numerics aims to provide methods and algorithms for numerical computations in science, engineering and every day use. Covered topics include special functions, linear algebra, probability models, random numbers, interpolation, integration, regression, optimization problems and more.
 * [Math.NET Symbolics](https://symbolics.mathdotnet.com/) - Math.NET Symbolics is a basic open source computer algebra library for .Net and Mono written in F#.
 * [Math.NET Filtering](https://filtering.mathdotnet.com/) - Filtering aims to provide a toolkit for digital signal processing, offering an infrastructure for digital filter design, applying those filters to data streams using data converters, as well as digital signal generators.
